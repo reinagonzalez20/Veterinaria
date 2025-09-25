@@ -1,0 +1,190 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Inicio</title>
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
+  <!-- Estilos personalizados -->
+  <style>
+    .carousel-container {
+      background-color: #343a40; /* gris oscuro */
+      padding: 20px;
+      border-radius: 15px;
+    }
+
+    .carousel-control-prev-icon,
+    .carousel-control-next-icon {
+      background-color: white;
+      border-radius: 50%;
+    }
+
+    .carousel-item img {
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.5);
+    }
+  </style>
+</head>
+<body class="bg-secondary text-white">
+
+  <main class="container py-5">
+    <h1 class="mb-4">Bienvenido a Veterinaria Carhav</h1>
+</main>
+
+   <style>
+    .carousel-container {
+      background-color: #343a40;
+      padding: 20px;
+      border-radius: 15px;
+      max-width: 600px;
+      margin: auto;
+    }
+
+    .carousel-item img {
+      width: 100%;
+      height: auto;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.5);
+    }
+
+    .carousel-control-prev-icon,
+    .carousel-control-next-icon {
+      background-color: white;
+      border-radius: 50%;
+    }
+  </style>
+</head>
+<body class="bg-secondary text-white">
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <div class="container">
+    <a class="navbar-brand" href="#">VET</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMenu"
+      aria-controls="navbarMenu" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarMenu">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item"><a class="nav-link" href="#">Inicio</a></li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="deptDropdown" role="button" data-bs-toggle="dropdown"
+            aria-expanded="false">Servicios</a>
+          <ul class="dropdown-menu" aria-labelledby="deptDropdown">
+            <li><a class="dropdown-item" href="#">Perros</a></li>
+            <li><a class="dropdown-item" href="#">Gatos</a></li>
+            <li><a class="dropdown-item" href="#">Aves, Tortugas y Peces</a></li>
+          </ul>
+        </li>
+        <li class="nav-item"><a class="nav-link" href="#">Conócenos</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Más información</a></li>
+      </ul>
+      <ul class="navbar-nav">
+        <li class="nav-item"><a class="nav-link" href="#">Redes Sociales</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+
+  <div class="carousel-container">
+    <div id="carouselExample" class="carousel slide">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="https://images.ctfassets.net/ozvjkvyngwhv/GW5VtleokYT6biw18Oa5I/d53cd6c7a0bf27fba500bc6ec5d667b8/4_Productos_P__ginaWeb.png" class="d-block" alt="Imagen 1">
+        </div>
+        <div class="carousel-item">
+          <img src="https://thumbs.dreamstime.com/b/variedad-de-productos-alimenticios-alimento-para-animales-globales-122681963.jpg" class="d-block" alt="Imagen 2">
+        </div>
+        <div class="carousel-item">
+          <img src="https://m.media-amazon.com/images/I/41OZiBru6YL.jpg" class="d-block" alt="Imagen 3">
+        </div>
+        <div class="carousel-item">
+            <img src="https://lacasitadelosanimales.com/wp-content/uploads/2016/02/SACO-ADULT.jpg" class="d-block" alt="Imagen 4">
+
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Anterior</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Siguiente</span>
+      </button>
+    </div>
+
+  </div>
+  <style>
+        /* Sticky footer setup */
+        html, body {
+            height: 100%;
+        }
+        body {
+            display: flex;
+            flex-direction: column;
+            background-color: #f0f4f8; /* color de fondo formal y suave */
+            color: #333;
+        }
+        main {
+            flex: 1; /* ocupa el espacio disponible para empujar el footer abajo */
+        }
+        footer {
+            margin-top: auto;
+        }
+        /* Estilo adicional para enlaces y hover */
+        a.text-light:hover {
+            color: #ffc107; /* dorado elegante al pasar el mouse */
+            text-decoration: none;
+        }
+        h5.fw-bold {
+            color: #ffffff;
+        }
+    </style>
+</head>
+<body>
+
+
+<!-- Footer -->
+<footer class="bg-dark text-light pt-5 pb-3 mt-5">
+  <div class="container">
+    <div class="row">
+      <!-- Columna de servicios -->
+      <div class="col-md-4 mb-4">
+        <h5 class="fw-bold">Nuestros servicios</h5>
+        <ul class="list-unstyled">
+          <li><a href="#" class="text-light text-decoration-none">Inicio</a></li>
+          <li><a href="#" class="text-light text-decoration-none">Servicios</a></li>
+          <li><a href="#" class="text-light text-decoration-none">Acerca de</a></li>
+          <li><a href="#" class="text-light text-decoration-none">Contacto</a></li>
+        </ul>
+      </div>
+
+      <!-- Columna de redes sociales -->
+      <div class="col-md-4 mb-4">
+        <h5 class="fw-bold">Síguenos</h5>
+        <div class="d-flex gap-3 mb-2">
+          <a href="#" class="text-light fs-4"><i class="bi bi-facebook"></i></a>
+          <a href="#" class="text-light fs-4"><i class="bi bi-twitter"></i></a>
+          <a href="#" class="text-light fs-4"><i class="bi bi-instagram"></i></a>
+          <a href="#" class="text-light fs-4"><i class="bi bi-youtube"></i></a>
+        </div>
+        <h5 class="fw-bold mt-2">Veterinaria Carhav</h5>
+      </div>
+    </div>
+    <hr class="border-secondary">
+    <div class="text-center text-secondary pb-2">
+      © 2025 Veterinaria Carhav | Los animalitos son nuestra prioridad
+    </div>
+  </div>
+</footer>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+
+</body>
+</html>
